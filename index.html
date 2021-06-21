@@ -1,0 +1,295 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Document</title>
+    </head>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<body>
+    <script src="app.js"></script>
+   <section id="header">
+           <div class="container">
+               <img src="logo.png" class="logo">
+               <div class="header-text">
+                       <h1>
+                           The pupose is to <br>teach , bring learning to people. 
+                       </h1><br><br>
+                       <h2>
+                           We work with <span class="txt-type" data-wait="1000" data-words='["Developer","Designer","Creator"]'></span>
+                       </h2>
+                       <span class="square"></span>
+                       <p>
+                           There are are many variations of passages of Lorem Ipsum
+                           available, but the majority have have suffered alteration in 
+                           some form, by injected humor, or randomised words
+                           which don't look even slightly believable.
+                       </p>
+                       <button class="common-btn"><span>Read more</span></button>
+                       <div class="line">
+                        <span class="line-1"></span><br>
+                        <span class="line-2"></span><br>
+                        <span class="line-3"></span>
+                    </div>            
+                    </div>
+           </div>
+
+    </section>
+    <nav id="sideNav">
+        <ul>
+            <li><a href="#">HOME</a></li>
+            <li><a href="#">ABOUT US</a></li>
+            <li><a href="#">FEATURES</a></li>
+            <li><a href="#">COURSES</a></li>
+            <li><a href="#">OFFER</a></li>
+            <li><a href="#">CONTACT</a></li>
+        </ul>
+
+    </nav>
+     <img src="menu.png" id="menuBtn">
+     <script>
+         var menuBtn=document.getElementById("menuBtn");
+         var sideNav=document.getElementById("sideNav");
+
+         sideNav.style.right="-250px";
+         menuBtn.onclick=function(){
+             if(sideNav.style.right =="-250px"){
+                 sideNav.style.right ="0";
+             }
+             else{
+                 sideNav.style.right="-250px";
+             }
+         }
+     </script>
+     
+<!--about-->
+<section id="about">
+    <div class="about-left-col">
+         <img src="about.png" alt="" srcset="">
+    </div>
+    <div class="about-right-col">
+        <div class="about-text">
+            <h1>About us</h1>
+            <span class="square"></span>
+            <p>
+                Contrary to popular belief, Lorem Ipsum is not simply random  
+                text . It haas roots in a piece of classical Latin 
+                literature from 45 BC,making it over 2000 years old.
+                Richard McCock,  a Latin professor at  Hampden-Sydney 
+                College in Virginia , looked up one of the more obscure 
+                Latin words, consectetur , from a lorem Ipsum passage, and 
+                going through the cites of the word in classical
+                literature, discovered the undoutable source 
+            </p><br><br>
+            <div class="line">
+                <span class="line-1"></span><br>
+                <span class="line-2"></span><br>
+                <span class="line-3"></span>
+            </div> 
+
+            <h2>"Learning is not attained by chance , it must be sought
+                for with ardor and attended to with diligence"
+            </h2>
+            <h3>---Abligali Adams</h3>
+        </div>
+    </div>
+    
+</section>
+<!--features-->
+<section id=features>
+    <div class="feature-row">
+        <div class="feature-col">
+            <img src="pic-1.png">
+            <h4>Learn Anywhere</h4>
+            <p>Switch between your computer,<br>
+                 tablet or mobile <br>
+                device
+            </p>
+        </div>
+        <div class="feature-col">
+            <img src="pic-2.png">
+            <h4>Expert Teachers</h4>
+            <p>Learn from industry experts<br>
+                 who are passionate about <br>
+               teaching.
+            </p>
+        </div>
+        <div class="feature-col">
+            <img src="pic-3.png">
+            <h4>Unlimited Access</h4>
+            <p>Choose what you'd like to <br>
+                learn from our extensive <br>
+                subscription library
+            </p>
+        </div>
+    </div>
+    
+    <div class="feature-btn">
+        <div class="line">
+            <span class="line-1"></span><br>
+            <span class="line-2"></span><br>
+            <span class="line-3"></span>
+        </div>
+        <button class="common-btn"><span>Start Free Trial</span></button>
+    </div>
+</section>
+
+<section id="courses">
+    <div class="course-row">
+        <div class="course-left-col">
+            <div class="course-text">
+              <h1>Browse our top<br>courses</h1>
+              <span class="square"></span>
+              <p>
+                Contrary to popular belief, Lorem Ipsum is not simply random  
+                text . It haas roots in a piece of classical Latin 
+                literature from 45 BC,making it over 2000 years old.
+                Richard McCock,  a Latin professor at  Hampden-Sydney 
+                College in Virginia , looked up one of the more obscure 
+                Latin words, consectetur , from a lorem Ipsum passage, and 
+                going through the cites of the word in classical
+                literature, discovered the undoutable source   
+              </p>
+              <button class="common-btn"><span> All Courses</span></button>
+              <div class="line">
+                <span class="line-1"></span><br>
+                <span class="line-2"></span><br>
+                <span class="line-3"></span>
+              </div>
+            </div>
+        </div>
+        <div class="course-right-col">
+              <img src="course.png">
+        </div>
+    </div>
+</section>
+<section id="offer">
+    <div class="about-left-col">
+         <img src="offer.png" alt="" srcset="">
+    </div>
+    <div class="about-right-col">
+        <div class="about-text">
+            <h1>Limitless Oportunity</h1>
+            <span class="square"></span>
+            <p>
+                Contrary to popular belief, Lorem Ipsum is not simply random  
+                text . It haas roots in a piece of classical Latin 
+                literature from 45 BC,making it over 2000 years old.
+                Richard McCock,  a Latin professor at  Hampden-Sydney 
+                College in Virginia . 
+            </p><br><br>
+            <div class="line">
+                <span class="line-1"></span><br>
+                <span class="line-2"></span><br>
+                <span class="line-3"></span>
+            </div> 
+
+            <h2>"Learning is not attained by chance , it must be sought
+                for with ardor and attended to with diligence"
+            </h2>
+            <h3>---Abligali Adams</h3>
+        
+        <button class="common-btn"><span> All Courses</span></button>
+    </div>
+</section>
+<section id="contact">
+    <div class="container contact-row">
+        <div class="contact-left-col">
+            <h1>Sign Up to join our<br> learning community</h1>
+            <form>
+                <input type="text"placeholder="Enter Name">
+                <input type="email" placeholder="Enter Email">
+                <input type="password"placeholder="Enter Password">
+                <div class="btn-box">
+                <button class="common-btn"><span>Start Free Trial</span></button>
+                <button class="common-btn">Sign up</button>
+                 </div>
+                 <div class="line">
+                    <span class="line-1"></span><br>
+                    <span class="line-2"></span><br>
+                    <span class="line-3"></span>
+                </div>
+            </form>
+            
+        </div>
+            <div class="contact-right-col">
+                 <img src="contact.png">    
+            </div>
+       
+    </div>
+</section>
+<section id="footer">
+    <div class="container footer-row">
+        <hr>
+        <div class="footer-left-col">
+           
+        </div>
+        <div class="footer-right-col">
+            <br>
+            <div>
+               <h2>Adress</h2> 
+               <p>Gulshan Avenue, Dhaka-1260</p><br>
+               <P><b>Phone:</b> 01727655551</P><br>
+               <p><b>Email:</b> sianwahadat890@gmail.com</p>
+            </div><br>
+            <div>
+                <a href="#" class="fa fa-facebook"></a>
+                <a href="#" class="fa fa-twitter"></a>
+                <a href="#" class="fa fa-instagram"></a>
+            </div>
+           
+        </div>
+    </div>
+</section>
+
+<script>
+    const TypeWriter = function(txtElement,words,wait=1000){
+    this.txtElement=txtElement;
+    this.words=words;
+    this.txt='';
+    this.wordIndex=0;
+    this.wait=parseInt(wait,10);
+    this.type();
+    this.isDeleting=false;
+}
+
+TypeWriter.prototype.type = function(){
+    const current= this.wordIndex%this.words.length;
+    const fullTxt=this.words[current];
+    if(this.isDeleting){
+        this.txt=fullTxt.substring(0,this.txt.length-1)
+    }else{
+        this.txt=fullTxt.substring(0,this.txt.length+1)
+    }
+    this.txtElement.innerHTML='<span class="txt">'+ this.txt+'</span>';
+    let typeSpeed=200;
+    if(this.isDeleting){
+        typeSpeed/=2;
+    }
+    if(!this.isDeleting&&this.txt==fullTxt){
+        typeSpeed=this.wait;
+        this.isDeleting=true;
+    }else if(this.isDeleting&&this.txt==''){
+         this.isDeleting=false;
+         this.wordIndex++;
+         typeSpeed=300;
+    }
+    setTimeout(()=>this.type(),typeSpeed);
+}
+
+
+document.addEventListener('DOMContentLoaded',init);
+
+function init() {
+    const txtElement=document.querySelector('.txt-type');
+    const words=JSON.parse(txtElement.getAttribute('data-words'));
+    const wait=txtElement.getAttribute('data-wait');
+
+    new TypeWriter(txtElement,words,wait);
+}
+</script>
+
+
+</body>
+</html>
